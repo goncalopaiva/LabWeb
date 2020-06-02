@@ -1,0 +1,96 @@
+.d-none{
+    display:none;
+}
+
+.valid {
+    border: 2px solid green;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+.ml-20{
+    margin-left: 20px;
+}
+
+.mr-10{
+    margin-right:10px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.text-sucess{
+    color: rgb(0, 255, 0);
+}
+
+.text-danger{
+   color: red;
+}
+
+.content {
+    width: 30%;
+}
+
+.time {
+    font-weight: bold;
+    text-align: right;
+}
+.memory {
+    width:600px;
+    background: #f9a21a;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 3px;
+
+}
+
+
+.card{
+
+    height: 130px;
+    width: 130px;
+    background: #a52b2b;
+    margin: 10px;
+    color: #a52b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-open{
+    color: white;
+}
+
+.card-match{
+    color:rgb(13, 255, 13);
+}
+
+
+.timer span{
+    color: red;
+    text-emphasis: bold;
+    font-size: 18px;
+}
+
+.button {
+  background-color: #f9a21a; /* Green */
+  border: none;
+  color: #a52b2b;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 14px;
+}
